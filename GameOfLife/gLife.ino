@@ -9,7 +9,7 @@
  We have only a single MAX72XX.
  */
 // Works on the Generic MAX7219 8x8 LED Matrix
-
+//runs on the Arduino Uno R3
 LedControl lc=LedControl(12,11,10,1);
 void setup() {
   // put your setup code here, to run once:
